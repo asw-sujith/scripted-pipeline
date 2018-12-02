@@ -6,4 +6,8 @@ node{
     stage('Compile-Package') {
       sh 'mvn package'    
     }
+    
+    stage('Deploy'){
+        sh 'mvn tomcat7 deploy'
+    }
 }
