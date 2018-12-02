@@ -94,9 +94,8 @@
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>${tomcat7-maven-plugin.version}</version>
                 <configuration>
-                    <url>http://107.20.76.212:8081/manager/</url>
+                    <url>http://107.20.76.212:8081/manager/html</url>
                     <server>tomcat</server>
                     <username>admin</username>
                     <password>adminadmin</password>
