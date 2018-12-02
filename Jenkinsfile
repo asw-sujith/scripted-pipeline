@@ -8,6 +8,6 @@ node{
     }
     
     stage('Deploy'){
-        sh 'mvn tomcat7 deploy'
+        sh 'mvn tomcat7:deploy'
     }
 }
