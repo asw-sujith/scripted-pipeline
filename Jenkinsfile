@@ -1,6 +1,6 @@
 node{
     stage('SCM checkout') {
-      git 'https://github.dxc.com/pupendra/DevOpsTest'
+      git 'https://github.com/asw-sujith/scripted-pipeline.git'
     }
     
     stage('Compile-Package') {
