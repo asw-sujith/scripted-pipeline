@@ -3,7 +3,7 @@ node{
       git 'https://github.com/asw-sujith/scripted-pipeline.git'
     }
     stage('clean install') {
-        sh mvn clean install
+        sh 'mvn clean install'
     }
     stage('Compile-Package') {
       sh 'mvn package'    
